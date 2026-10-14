@@ -1,0 +1,21 @@
+{
+  "experiment": "bm25_local_v1",
+  "inference": {
+    "model": "gpt-oss:20b",
+    "backend": "ollama",
+    "context_length": 8192,
+    "max_tokens": 2048,
+    "thinking": "low",
+    "top_k": 8,
+    "temperature": 0,
+    "seed": 42
+  },
+  "retrieval": {
+    "default": "bm25",
+    "bm25_k1": 1.5,
+    "bm25_b": 0.75,
+    "dense_model": "nomic-embed-text:v1.5",
+    "hybrid_method": "reciprocal_rank_fusion",
+    "hybrid_rrf_k": 60
+  }
+}

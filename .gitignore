@@ -1,0 +1,22 @@
+.venv/
+.venv-baseline/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+**/*.egg-info/
+.env
+.env.*
+!.env.example
+
+# Competition data is licensed CC BY-NC 4.0; do not publish it with the code.
+data/competition/
+data/pdfs/
+data/processed/
+data/indexes/
+outputs/
+artifacts/
+tmp/
+tmp*/
+*.zip
+

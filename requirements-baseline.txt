@@ -1,0 +1,8 @@
+# Versions actually used for the recorded Python 3.12.14 local baseline.
+# Ollama 0.40.3 and the model digest are recorded separately in the frozen config.
+pandas==3.0.1
+pypdf==6.10.0
+numpy==2.3.5
+python-dateutil==2.9.0.post0
+six==1.17.0
+tzdata==2026.5
